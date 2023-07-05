@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     case R.id.menu_fragment:
                         loadFragment(new ScannerFragment());
                         return true;
-                    case R.id.menu_profile:
-                        loadFragment(new ProfileFragment());
-                        return true;
+//                    case R.id.menu_profile:
+//                        loadFragment(new ProfileFragment());
+//                        return true;
                     default:
                         return false;
                 }
