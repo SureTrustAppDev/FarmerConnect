@@ -63,7 +63,8 @@ public class HomeFragment extends Fragment {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Farmerlog.class);
+                Intent intent = new Intent(getActivity(), FarmerInfoActivity.class);
+                intent.putExtra("qrID","12345");
                 startActivity(intent);
             }
         });

@@ -32,7 +32,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 public class FarmerInfoActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
-    private TextView f_nametv, agetv, locationtv, farmer_nametv, farmer_infotv;
+    private TextView f_nametv, agetv, locationtv, farmer_nametv, farmer_infotv,yt_tv;
     private Button donate_btn;
     private ImageView farmer_photo, call;
     DrawerLayout drawerLayout;
@@ -40,7 +40,7 @@ public class FarmerInfoActivity extends AppCompatActivity implements NavigationV
     private FirebaseAuth mAuth;
     FirebaseFirestore st;
     TextView pro;
-    String uid,number;
+    String uid,number,ytlink;
     private String upi,f_name;
 
     @Override
@@ -58,6 +58,7 @@ public class FarmerInfoActivity extends AppCompatActivity implements NavigationV
         farmer_photo= findViewById(R.id.farmer_photo);
         donate_btn = findViewById(R.id.donate_btn);
         call = findViewById(R.id.call);
+        yt_tv = findViewById(R.id.yt_tv);
 
 
 
@@ -103,6 +104,7 @@ public class FarmerInfoActivity extends AppCompatActivity implements NavigationV
                     String farmer_info = document.getString("farmer_info");
                     number = document.getString("call");
                     upi=document.getString("farmer_upi");
+                    ytlink=document.getString("ytlink");
 
                     // Assign values to TextViews
                     f_nametv.setText(f_name);
@@ -110,6 +112,7 @@ public class FarmerInfoActivity extends AppCompatActivity implements NavigationV
                     locationtv.setText(location);
                     farmer_nametv.setText(f_name);
                     farmer_infotv.setText(farmer_info);
+                    yt_tv.setText(ytlink);
                 } else {
                     // Document doesn't exist
                 }
@@ -125,6 +128,16 @@ public class FarmerInfoActivity extends AppCompatActivity implements NavigationV
                 intent.putExtra("upiID", upi);
                 intent.putExtra("name", f_name);
                 startActivity(intent);
+            }
+        });
+
+        yt_tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String link=ytlink;
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+                startActivity(intent);
+
             }
         });
 

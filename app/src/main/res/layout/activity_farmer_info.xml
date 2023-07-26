@@ -148,7 +148,7 @@
                         android:id="@+id/call"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:layout_marginStart="100dp"
+                        android:layout_marginStart="80dp"
                         android:src="@drawable/mdi_call"/>
                 </LinearLayout>
 
@@ -166,6 +166,35 @@
                     android:textSize="20dp"
                     android:textColor="@color/black"/>
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="Youtube Link"/>
+
+                    <TextView
+                        android:id="@+id/yt_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#1B8DCD"
+                        android:hint="yt link"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
 
 
             </LinearLayout>
