@@ -136,7 +136,7 @@
             android:id="@+id/upi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/pay_btn_bg"
+            android:background="@drawable/background_theme"
             android:layout_marginTop="30dp"
             android:text="Pay &amp; Confirm">
         </androidx.appcompat.widget.AppCompatButton>

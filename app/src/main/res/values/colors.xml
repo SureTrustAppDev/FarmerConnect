@@ -17,7 +17,7 @@
     <color name="inactive">#C4C4C4</color>
     <color name="active">#50C2C9</color>
     <color name="greencolor">#50C2C9</color>
-
+    <color name="app_theme">#A8C89E</color>
     <color name="teal_400">#26a69a</color>
     <color name="black_900_7f">#7f000000</color>
     <color name="teal_400_4c">#4c26a69a</color>
