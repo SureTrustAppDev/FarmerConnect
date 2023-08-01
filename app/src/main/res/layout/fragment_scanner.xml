@@ -35,7 +35,7 @@
         android:layout_height="60dp"
         android:layout_below="@id/img"
         android:layout_marginTop="80dp"
-        android:background="@drawable/scan_btn"
+        android:background="@drawable/background_theme"
         android:text="Scan to get details"
         android:textColor="@color/white"
         android:textSize="22dp"/>
