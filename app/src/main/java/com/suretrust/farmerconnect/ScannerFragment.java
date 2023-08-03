@@ -32,6 +32,7 @@ public class ScannerFragment extends Fragment {
         requestCameraPermission();
         scanButton = view.findViewById(R.id.scan_button);
         scanButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 redirectToScannerActivity();

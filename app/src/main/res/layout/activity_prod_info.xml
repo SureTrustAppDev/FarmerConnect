@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:id="@+id/drawer_layout"
     android:fitsSystemWindows="true"
     tools:context=".ProdInfoActivity">
@@ -12,12 +11,12 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/top">
+    android:background="@drawable/olive">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/teal_400_7f"
+        android:background="@drawable/olive"
         android:elevation="4dp"
         app:titleTextColor="@color/white_A700" />
 
@@ -26,6 +25,7 @@
         android:id="@+id/rel_top"
         android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
+        android:background="@drawable/olive"
         android:layout_height="300dp"
         android:padding="5dp">
 
@@ -200,7 +200,7 @@
             android:text="Farmer details"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:background="@drawable/background_theme"/>
+            android:background="@drawable/olive_bg"/>
 
 
 
