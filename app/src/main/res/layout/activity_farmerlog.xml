@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/teal_400_7f"
+            android:background="@drawable/olive"
             android:elevation="4dp"
             app:titleTextColor="@color/white_A700" />
         <RelativeLayout
@@ -28,6 +28,7 @@
             <FrameLayout
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
+                android:background="@drawable/img_vector2"
                >
                 <FrameLayout
                     android:layout_gravity="top|start"
@@ -194,7 +195,7 @@
                     android:layout_height="67dp"
                     android:layout_gravity="bottom|center"
                     android:background="@drawable/prod_btm"
-                    android:backgroundTint="@color/teal_200"
+                    android:backgroundTint="#94BB86"
                     android:orientation="vertical">
 
                     <TextView
