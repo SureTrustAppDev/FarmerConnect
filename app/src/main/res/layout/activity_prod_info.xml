@@ -11,9 +11,10 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/olive">
+    android:background="@drawable/olive"
+    android:id="@+id/prod_Relative_layout">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/product_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/olive"
@@ -23,7 +24,7 @@
 
     <RelativeLayout
         android:id="@+id/rel_top"
-        android:layout_below="@+id/toolbar"
+        android:layout_below="@+id/product_toolbar"
         android:layout_width="match_parent"
         android:background="@drawable/olive"
         android:layout_height="300dp"
@@ -193,7 +194,7 @@
 
 
         <Button
-            android:id="@+id/farmers_btn"
+            android:id="@+id/prod_farmers_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -47,7 +45,7 @@ public class ProdInfoActivity extends AppCompatActivity implements NavigationVie
 
 
 
-       Toolbar toolbar = findViewById(R.id.toolbar);
+       Toolbar toolbar = findViewById(R.id.product_toolbar);
         setSupportActionBar(toolbar);
         drawerLayout=findViewById(R.id.drawer_layout);
         NavigationView navigationView=findViewById(R.id.navigation);
@@ -78,7 +76,7 @@ public class ProdInfoActivity extends AppCompatActivity implements NavigationVie
         prod_nametv = findViewById(R.id.prod_name);
         prod_infotv = findViewById(R.id.prod_info);
         harv_practv = findViewById(R.id.harv_prac);
-        farmers_btn = findViewById(R.id.farmers_btn);
+        farmers_btn = findViewById(R.id.prod_farmers_btn);
 
         // Get the scanned data from the intent
         String qrID = getIntent().getStringExtra("scanned_info");

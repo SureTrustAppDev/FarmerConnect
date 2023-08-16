@@ -14,7 +14,7 @@
    >
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/product_toolbar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="#26a69a"
@@ -25,7 +25,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar"
+        android:layout_below="@+id/product_toolbar"
         android:layout_above="@id/bottonNavBar">
     </androidx.fragment.app.FragmentContainerView>
 
