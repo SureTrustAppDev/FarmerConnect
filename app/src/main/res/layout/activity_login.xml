@@ -126,7 +126,7 @@
             android:layout_marginTop="10dp"
             android:layout_below="@id/forgot"
             android:textSize="22sp"
-            android:background="@drawable/req_otp"
+            android:background="@drawable/olive"
             android:text="Login"/>
 
     </RelativeLayout>
@@ -211,7 +211,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/linearRowellipsetwo"
             android:layout_marginTop="29dp"
-            android:background="@drawable/background_theme"
+            android:background="@drawable/olive"
             android:text="Request OTP"
             android:textAllCaps="false"
             android:textColor="@color/white"

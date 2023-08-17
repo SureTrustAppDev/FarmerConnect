@@ -55,7 +55,7 @@
         android:layout_below="@id/edt"
         android:text="done"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/background_theme"
+        android:background="@drawable/olive"
         android:layout_marginTop="40dp"/>
 
 </RelativeLayout>

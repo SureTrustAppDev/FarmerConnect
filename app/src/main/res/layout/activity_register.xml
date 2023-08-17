@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/enterpassword"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/background_theme"
+        android:background="@drawable/olive"
         android:layout_marginTop="80dp"
         android:text="Register"
         android:textAllCaps="true"
