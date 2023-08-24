@@ -17,7 +17,7 @@
             android:id="@+id/product_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/teal_400_7f"
+            android:background="@color/green_300_7f"
             android:elevation="4dp"
             app:titleTextColor="@color/white_A700" />
         <RelativeLayout
@@ -39,10 +39,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navigation"
-        app:subheaderColor="#4FBDBA"
+        app:subheaderColor="#7f94bb86"
         app:background="@drawable/prod_btm"
-        app:itemIconTint="#4FBDBA"
-        app:itemTextColor="#35858B"
+        app:itemIconTint="#7f94bb86"
+        app:itemTextColor="#7FA3CC94"
         app:headerLayout="@layout/navigator"
         app:menu="@menu/drawer"
         android:background="@color/white"

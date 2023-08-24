@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearColumnreply"
     android:layout_height="match_parent"
-    android:background="@drawable/rectangle_bg_teal_400_7f_radius_bl_40_br_40"
+    android:background="@drawable/rectangle_gradient_s_green_300_7f_e_green_300_7f_radius_40"
     android:layout_width="match_parent"
     android:orientation="vertical"
     tools:context=".ProfileFragment">
@@ -121,10 +121,9 @@
                     android:paddingStart="@dimen/_30pxh"
                     android:paddingTop="@dimen/_5pxv"
                     android:singleLine="true"
-                    android:text="@string/lbl_edit_profile"
-                    android:background="@drawable/scan_btn"
+                    android:background="@drawable/edit_profile_green_btn"
                     android:textAllCaps="false"
-                    tools:text="@string/lbl_edit_profile"/>
+                    />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -153,9 +152,9 @@
                 android:layout_height="@dimen/_20pxh"
                 android:layout_marginBottom="@dimen/_3pxv"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_settings_teal_400"
+                android:src="@drawable/settings_green"
                 tools:ignore="ContentDescription"
-                tools:src="@drawable/img_settings_teal_400" />
+                tools:src="@drawable/settings_green" />
 
             <TextView
                 android:id="@+id/txtSettingsOne"
@@ -187,9 +186,9 @@
                 android:layout_height="@dimen/_21pxh"
                 android:layout_marginBottom="@dimen/_2pxv"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_vector_teal_400"
+                android:src="@drawable/donation_green"
                 tools:ignore="ContentDescription"
-                tools:src="@drawable/img_vector_teal_400" />
+                tools:src="@drawable/donation_green" />
 
             <TextView
                 android:id="@+id/txtDonationHistor"
@@ -220,9 +219,9 @@
                 android:layout_height="@dimen/_21pxh"
                 android:layout_marginBottom="@dimen/_2pxv"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_link"
+                android:src="@drawable/help_new_green"
                 tools:ignore="ContentDescription"
-                tools:src="@drawable/img_link" />
+                tools:src="@drawable/help_new_green" />
 
             <TextView
                 android:id="@+id/txtHelp"
@@ -252,9 +251,9 @@
                 android:layout_width="@dimen/_23pxh"
                 android:layout_height="@dimen/_23pxh"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_question"
+                android:src="@drawable/info_green"
                 tools:ignore="ContentDescription"
-                tools:src="@drawable/img_question" />
+                tools:src="@drawable/info_green" />
 
             <TextView
                 android:id="@+id/txtInformation"
@@ -287,9 +286,9 @@
                 android:layout_height="@dimen/_20pxh"
                 android:layout_marginBottom="@dimen/_3pxv"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_vector_teal_400_20x19"
+                android:src="@drawable/logout_green"
                 tools:ignore="ContentDescription"
-                tools:src="@drawable/img_vector_teal_400_20x19" />
+                tools:src="@drawable/logout_green" />
 
             <TextView
                 android:id="@+id/logout_btn"

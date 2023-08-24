@@ -10,13 +10,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@drawable/logo" />
+        android:background="@drawable/farmer_plant" />
 
     <ImageView
         android:layout_width="113dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/bro"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/bro" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/trees" />
 
 </RelativeLayout>

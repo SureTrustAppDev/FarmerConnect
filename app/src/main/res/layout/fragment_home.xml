@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/rectangle_gradient_s_green_300_7f_e_green_300_7f_radius_40"
     tools:context=".HomeFragment">
 
     <LinearLayout
@@ -16,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="\t\t\tRice"
-        android:background="#5bbbb2"
+        android:background="#7f94bb86"
         android:textSize="40sp"
         android:textColor="@color/black"
         android:textStyle="bold"/>
@@ -148,7 +149,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="\t\t\t\Moong Dal"
-        android:background="#5bbbb2"
+        android:background="#7f94bb86"
         android:textSize="40sp"
         android:textColor="@color/black"
         android:textStyle="bold"/>
@@ -278,7 +279,7 @@
         android:layout_height="wrap_content"
         android:text="\t\t\tWheat"
         android:textSize="40sp"
-        android:background="#5bbbb2"
+        android:background="#7f94bb86"
         android:textColor="@color/black"
         android:textStyle="bold"/>
 

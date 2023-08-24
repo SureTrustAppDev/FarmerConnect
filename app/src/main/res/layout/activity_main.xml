@@ -17,7 +17,7 @@
         android:id="@+id/product_toolbar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#26a69a"
+        android:background="#7f94bb86"
         android:elevation="40dp"
         app:titleTextColor="@color/white_A700" />
 
@@ -53,9 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navigation"
-        app:subheaderColor="#4FBDBA"
+        app:subheaderColor="#7f94bb86"
         app:background="@drawable/prod_btm"
-        app:itemIconTint="#4FBDBA"
+        app:itemIconTint="#7f94bb86"
         app:itemTextColor="#35858B"
         app:headerLayout="@layout/navigator"
         app:menu="@menu/drawer"

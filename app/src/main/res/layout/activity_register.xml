@@ -14,7 +14,7 @@
         android:layout_height="130dp"
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logo" />
+        android:src="@drawable/farmer_plant" />
 
     <EditText
         android:id="@+id/entername"
