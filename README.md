@@ -25,9 +25,8 @@ April 2023 to August 2023
 2. [Introduction](#introduction)
 3. [Project Objectives](#project-objectives)
 4. [Methodology & Results](#methodology--results)
-5. [Social / Industry Relevance of the Project](#social--industry-relevance-of-the-project)
-6. [Learning & Reflection](#learning--reflection)
-7. [Future Scope & Conclusion](#future-scope--conclusion)
+5. [Learning & Reflection](#learning--reflection)
+6. [Future Scope & Conclusion](#future-scope--conclusion)
 
 ### Executive Summary<a name="executive-summary"></a>
 This project introduces an innovative mobile app designed to revolutionize consumer-farmer interactions within India's agricultural sector. By harnessing QR code technology, the app establishes a direct channel connecting consumers with farmers, fostering transparency, trust, and support. The project's primary objectives include promoting equitable trade practices, empowering farmers, and fostering accountability within the agricultural ecosystem.
