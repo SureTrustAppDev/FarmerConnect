@@ -20,23 +20,23 @@
 #### Period of the project
 April 2023 to August 2023
 
-### Table of contents
-    1. Executive summary
-    2. Introduction 
-    3. Project Objectives
-    4. Methodology & Results
-    5. Social / Industry relevance of the project 
-    6. Learning & Reflection
-    7. Future Scope & Conclusion
+### Table of Contents
+1. [Executive Summary](#executive-summary)
+2. [Introduction](#introduction)
+3. [Project Objectives](#project-objectives)
+4. [Methodology & Results](#methodology--results)
+5. [Social / Industry Relevance of the Project](#social--industry-relevance-of-the-project)
+6. [Learning & Reflection](#learning--reflection)
+7. [Future Scope & Conclusion](#future-scope--conclusion)
 
-### Executive Summary
+### Executive Summary<a name="executive-summary"></a>
 This project introduces an innovative mobile app designed to revolutionize consumer-farmer interactions within India's agricultural sector. By harnessing QR code technology, the app establishes a direct channel connecting consumers with farmers, fostering transparency, trust, and support. The project's primary objectives include promoting equitable trade practices, empowering farmers, and fostering accountability within the agricultural ecosystem.
 
 Key findings of the project include successful QR code integration, enabling users to access comprehensive farmer profiles and information. The app empowers users to explore farmers' practices and contribute directly through secure UPI-enabled donations. Security measures including encryption and robust coding practices ensure the protection of user data.
 
 In light of these findings, we recommend further enhancements to user experience, exploration of AI-driven features for personalized interactions, and continuous security updates to fortify data protection. This project is poised to reshape the consumer-farmer relationship, instilling a sense of mutual benefit and shared responsibility within the agricultural sector.
 
-### Introduction
+### Introduction<a name="introduction"></a>
 
 This project bridges the gap between Indian consumers and farmers through innovative technology. This introduction outlines the project's context, problem statement, scope, limitations, and its innovative core.
 
@@ -57,7 +57,7 @@ The project focuses on an app integrating QR code technology for direct consumer
 Innovation lies in QR codes bridging consumer-farmer gaps. This approach enhances traceability and transparency in agriculture, uniquely blending technology, social responsibility, and empowerment.
 
 
-### Project Objectives
+### Project Objectives<a name="project-objectives"></a>
 
 This project is designed with the following clear objectives and goals in mind, accompanied by anticipated outcomes and deliverables:
 
@@ -103,7 +103,7 @@ Deliverables:
     7. By achieving these objectives and delivering the outlined outcomes, this project aims to revolutionize consumer-farmer interactions and contribute to a more transparent, accountable, and supportive agricultural ecosystem.
 
 
-### Methodology and Results
+### Methodology & Results<a name="methodology--results"></a>
 
 The project employed a systematic approach, utilizing modern technologies to achieve its objectives.
 
@@ -165,7 +165,7 @@ Project Figma Link:
 Through the utilization of these methods, tools, and technologies, the project successfully achieved its objectives. The app showcases seamless QR code scanning, insightful farmer profiles, secure donations, and transaction history. The project GitHub link provides access to the comprehensive codebase and documentation, fostering transparency and accessibility.
 
 
-### Learning and Reflection
+### Learning & Reflection<a name="learning--reflection"></a>
 
 #### 1. Mr. Om Kokate , B.Tech ,  3rd  year pursuing ---- Team Leader
 
@@ -251,7 +251,7 @@ Through the utilization of these methods, tools, and technologies, the project s
     The journey allowed the team members to not only expand their technical skill sets but also appreciate the depth of impact that their work can have on societal issues. As they move forward, the lessons learned from this project will undoubtedly shape their future endeavors and continue to inspire their commitment to meaningful innovation.
 
 
-### Conclusion and Future Scope
+### Future Scope & Conclusion<a name="future-scope--conclusion"></a>
 
 #### Recap Objectives and Achievements:
 
